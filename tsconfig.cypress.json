@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // Decide which option to use
+    "inlineSourceMap": true // Preferred for Cypress testing
+    // "sourceMap": true // Or use this if you need separate source maps
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress.config.ts" // Ensure the Cypress configuration is included
+  ]
+}

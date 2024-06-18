@@ -1,0 +1,7 @@
+<div class="container-popup"
+  ClickOutsideDirective
+  [style.left.px]="positionConfig?.left"
+  [style.top.px]="positionConfig?.top"
+  (onOutside)="handlerClickOutside()">
+  {{fullText}}
+</div>
